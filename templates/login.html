@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+        <script src="{{url_for('static', filename='login.js')}}"></script>
+	</head>
+	<body class="login-body">
+		<div class="login-wrapper">
+			<h2>Please Login or Sign Up</h2>
+			<input id="txt-email" type="email" placeholder="email"><br>
+			<input id="txt-password" type="password" placeholder="password"><br>
+			<button id="btn-login" class="btn btn-action">Log In</button>
+			<button id="btn-signup" class="btn btn-action secondary">Sign Up</button>
+		</div>
+	</body>
+</html>

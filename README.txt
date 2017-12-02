@@ -1,0 +1,1 @@
+if flask not updating, it's a browser issue. Ctrl+F5 to hard refresh browser
